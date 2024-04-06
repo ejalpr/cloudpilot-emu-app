@@ -7,6 +7,7 @@ emulator. Currrently, the following devices are supported:
 -   Pilot, Palm Pilot
 -   Palm III
 -   Palm IIIxe, Palm IIIx, Palm IIIe
+-   Palm IIIc
 -   Palm Vx, Palm V
 -   Palm VII, Palm VII EZ, Palm VIIx
 -   Palm m500, Palm m505, Palm m515
@@ -25,6 +26,7 @@ emulator. Currrently, the following devices are supported:
 -   Sony PEG-T650C series
 -   Sony PEG-NR70 series
 -   Acer S1x
+-   Legend P168
 
 CloudpilotEmu can be run as a web page or as a mobile app on phones and tables. The
 list of features includes
@@ -63,4 +65,15 @@ for more details.
 
    This is the preview of the next release of CloudpilotEmu embedded.
 
+ * [uARM preview](/uarm-preview)
+
+   This is a rough preview of what will eventually become OS5 support using Dmitry
+   Grinberg's [uARM](https://github.com/uARM-Palm/uARM). You can find the source
+   [here](https://github.com/cloudpilot-emu/cp-uarm).
+
  * [Source code](https://github.com/cloudpilot-emu/cloudpilot-emu)
+
+# Privacy
+
+CloudpilotEmu is [a strictly client side](PRIVACY.md) application. It stores the data that
+you enter locally on your device and does not transmit any of it over the network.
