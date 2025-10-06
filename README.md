@@ -28,8 +28,10 @@ emulator. Currrently, the following devices are supported:
 -   Acer S1x
 -   Legend P168
 
-CloudpilotEmu can be run as a web page or as a mobile app on phones and tables. The
-list of features includes
+CloudpilotEmu can be run as a web page or as a mobile app on phones and tables,
+and on iOS it is also available on the 
+[App Store](https://apps.apple.com/us/app/cloudpilotemu/id6478502699).
+The list of features includes
 
  * Realistic emulation of timers and device speed
  * Continuous state saves --- emulation resumes if the page or app is reloaded
@@ -59,7 +61,9 @@ for more details.
 
  * [CloudpilotEmu preview](/app-preview)
 
-   This is the preview of the next CloudpilotEmu release.
+   This is the preview of the next CloudpilotEmu release. On the iOS native app you
+   you can switch between the preview and stable versions by opening the "Settings" app,
+   selecting "CloudpilotEmu" and toggling "Use preview version".
 
  * [CloudpilotEmu embedded preview](/embedded-preview)
 
@@ -69,11 +73,23 @@ for more details.
 
    This is a rough preview of what will eventually become OS5 support using Dmitry
    Grinberg's [uARM](https://github.com/uARM-Palm/uARM). You can find the source
-   [here](https://github.com/cloudpilot-emu/cp-uarm).
+   [here](https://github.com/cloudpilot-emu/cloudpilot-emu/tree/master/src/uarm).
+
+ * [deNVFS image for uARM](./e2_denvfs.rom)
+  
+   This is the deNVFSed E2 ROM by Dmitry Grinberg. You can find more information in
+   the original
+   [release note on Reddit](https://www.reddit.com/r/Palm/comments/j6nyyb/removing_nvfs_from_a_tungsten_e2_success/).
+
+ * [320x480 screen image for uARM](/e2_dia.rom)
+  
+   Modified E2 ROM with a dynamic input area, 320x480 screen resolution and no NVFS,
+   courtesy of Dmitry Grinberg.
 
  * [Source code](https://github.com/cloudpilot-emu/cloudpilot-emu)
 
 # Privacy
 
-CloudpilotEmu is [a strictly client side](PRIVACY.md) application. It stores the data that
+CloudpilotEmu is a strictly client side application. It stores the data that
 you enter locally on your device and does not transmit any of it over the network.
+Please check the [privacy statement](PRIVACY.md) for details.
